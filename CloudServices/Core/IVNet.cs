@@ -12,5 +12,8 @@ namespace CloudServices.Core
         void Delete();              // Delete the virtual network
         void Configure();           // Configure the VNet
         string GetDetails();        // Get details about the VNet
+        string VnetName { get; set; }
+        string CIDRBlock { get; set; }
+        Boolean IsConfigured { get; set; }
     }
 }

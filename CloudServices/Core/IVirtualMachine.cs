@@ -13,5 +13,8 @@ namespace CloudServices.Core
         void Stop();             // Stop the virtual machine
         void Reboot();           // Reboot the virtual machine
         string GetDetails();     // Get details about the virtual machine
+        string VMSize { get; set; } // Get and Set specific size for the virtual machine
+        string Region { get; set; } // Get  and Set specific region for the virtual machine
+
     }
 }
