@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.AWS
 {
-    internal class AWSVPC : IVNet
+    public class AWSVPC : IVNet
     {
         // Properties for VPC configuration
         public string VnetName { get; set; } = "MyVPC";  // Default VPC name

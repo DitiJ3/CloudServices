@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.Azure
 {
-    internal class AzureDatabaseService : IDatabaseService
+    public class AzureDatabaseService : IDatabaseService
     {
         // Properties for Database configuration
         public string DBEngine { get; set; } = "Postgress";  // Default database engine

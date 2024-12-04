@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.Core
 {
-    internal interface IStorageService
+    public interface IStorageService
     {
         void Provision();        // Provision the storage service
         void AttachToVM();       // Attach the storage to a virtual machine

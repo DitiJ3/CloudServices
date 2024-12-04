@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.Core
 {
-    internal interface IVirtualMachine
+    public interface IVirtualMachine
     {
         void Provision();        // Provision the virtual machine
         void Start();            // Start the virtual machine

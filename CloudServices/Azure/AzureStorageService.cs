@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.Azure
 {
-    internal class AzureStorageService : IStorageService
+    public class AzureStorageService : IStorageService
     {
         // Property for Storage Type
         public string StorageType { get; set; } = "SSD";  // Default storage type

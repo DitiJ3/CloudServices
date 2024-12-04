@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/CloudServices/bin/Debug/net8.0/CloudServices.dll",
             "args": [],
             "cwd": "${workspaceFolder}/CloudServices",
-            "console": "internalConsole",
+            "console": "publicConsole",
             "stopAtEntry": false
         },
         {

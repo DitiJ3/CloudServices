@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.Azure
 {
-    internal class AzureSubnet : ISubnet
+    public class AzureSubnet : ISubnet
     {
         // Properties for Subnet configuration
         public string SubnetName { get; set; } = "MySubnet";  // Default subnet name

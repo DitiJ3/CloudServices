@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.GCP
 {
-    internal class GCPDatabaseService : IDatabaseService
+    public class GCPDatabaseService : IDatabaseService
     {
         // Properties for Database configuration
         public string DBEngine { get; set; } = "MySQL";  // Default database engine

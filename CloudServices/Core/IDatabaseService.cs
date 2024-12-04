@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.Core
 {
-    internal interface IDatabaseService
+    public interface IDatabaseService
     {
         void CreateDatabase();       // Create a database
         void Connect();              // Connect to the database

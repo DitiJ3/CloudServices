@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.Core
 {
-    internal interface ISubnet
+    public interface ISubnet
     {
         void Create();              // Create a subnet
         void Delete();              // Delete the subnet

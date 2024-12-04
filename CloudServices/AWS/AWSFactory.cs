@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.AWS
 {
-    internal class AWSFactory : ICloudServiceFactory
+    public class AWSFactory : ICloudServiceFactory
     {
         public IVirtualMachine CreateVirtualMachine()
         {

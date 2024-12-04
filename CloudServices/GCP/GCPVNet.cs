@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.GCP
 {
-    internal class GCPVnet : IVNet
+    public class GCPVnet : IVNet
     {
         // Properties for Vnet configuration
         public string VnetName { get; set; } = "MyVnet";  // Default Vnet name

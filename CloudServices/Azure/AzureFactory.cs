@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.Azure
 {
-    internal class AzureFactory : ICloudServiceFactory
+    public class AzureFactory : ICloudServiceFactory
     {
         public IVirtualMachine CreateVirtualMachine()
         {

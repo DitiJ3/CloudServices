@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.AWS
 {
-    internal class AWSDatabaseService : IDatabaseService
+    public class AWSDatabaseService : IDatabaseService
     {
         // Properties for Database configuration
         public string DBEngine { get; set; } = "MySQL";  // Default database engine

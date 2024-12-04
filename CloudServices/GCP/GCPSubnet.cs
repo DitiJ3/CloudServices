@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.GCP
 {
-    internal class GCPSubnet : ISubnet
+    public class GCPSubnet : ISubnet
     {
         // Properties for Subnet configuration
         public string SubnetName { get; set; } = "MySubnet";  // Default subnet name

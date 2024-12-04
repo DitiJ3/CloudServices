@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.Azure
 {
-    internal class AzureVnet : IVNet
+    public class AzureVnet : IVNet
     {
         // Properties for Vnet configuration
         public string VnetName { get; set; } = "MyVnet";  // Default Vnet name

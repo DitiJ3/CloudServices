@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.Core
 {
-    internal interface ICloudServiceFactory
+    public interface ICloudServiceFactory
     {
         IVirtualMachine CreateVirtualMachine();
         IStorageService CreateStorageService();

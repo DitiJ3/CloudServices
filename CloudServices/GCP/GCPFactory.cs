@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.GCP
 {
-    internal class GCPFactory : ICloudServiceFactory
+    public class GCPFactory : ICloudServiceFactory
     {
         public IVirtualMachine CreateVirtualMachine()
         {

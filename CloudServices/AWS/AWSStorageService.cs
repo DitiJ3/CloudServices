@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.AWS
 {
-    internal class AWSStorageService : IStorageService
+    public class AWSStorageService : IStorageService
     {
         // Property for Storage Type
         public string StorageType { get; set; } = "SSD";  // Default storage type

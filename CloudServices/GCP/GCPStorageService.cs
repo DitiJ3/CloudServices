@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.GCP
 {
-    internal class GCPStorageService : IStorageService
+    public class GCPStorageService : IStorageService
     {
         // Property for Storage Type
         public string StorageType { get; set; } = "SSD";  // Default storage type

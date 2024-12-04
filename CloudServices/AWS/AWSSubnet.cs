@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CloudServices.AWS
 {
-    internal class AWSSubnet : ISubnet
+    public class AWSSubnet : ISubnet
     {
         // Properties for Subnet configuration
         public string SubnetName { get; set; } = "MySubnet";  // Default subnet name
